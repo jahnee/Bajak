@@ -4,3 +4,23 @@
     padding: 10px;
     text-align: center;
   }
+  .titlebar {
+    display: flex;
+    justify-content: center; /* Horizontal centering */
+    align-items: center; /* Vertical centering */
+    height: 6rem; /* Set the height of your container */
+}
+  .active {
+    color: darkblue;
+  }
+  .full-screen {
+    height: 100vh; /* 100% of the viewport height */
+    background-color: lightgreen; /* Background color for the full-screen element */
+    text-align: center;
+
+}
+
+  .align-center{
+    align-items: center;
+  }
+  
